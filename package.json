@@ -5,7 +5,6 @@
   "license": "MIT",
   "author": "Robert de Lacy",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -22,13 +21,8 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^2.1.1",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.11.2",
-    "enzyme-to-json": "^3.3.5",
     "express": "^4.16.4",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "jest": "^24.6.0",
-    "live-server": "^1.2.1",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
@@ -45,11 +39,17 @@
     "style-loader": "^0.23.1",
     "uuid": "^3.3.2",
     "validator": "^10.11.0",
-    "webpack": "^4.29.6",
-    "webpack-dev-server": "^3.2.1"
+    "webpack": "^4.29.6"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.0"
+    "chalk": "^2.4.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.6.0",
+    "react-test-renderer": "^16.8.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
   },
   "repository": "git@github.com:robertdelacy/react-course-2-expensify-app.git"
 }

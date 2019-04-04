@@ -10,6 +10,7 @@ export class ExpenseListFilters extends React.Component {
     };
 
     onDatesChange = ({startDate, endDate}) => {
+        
         this.props.setStartDate(startDate);
         this.props.setEndDate(endDate);
     };
@@ -63,9 +64,9 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
     setTextFilter: (text) => dispatch(setTextFilter(text)),
-    sortBy: (sortBy) => dispatch(sortBy(sortBy)),
-    setStartDate: (startDate) => dispatch(setEndDate(startDate)),
-    setStartDate: (endDate) => dispatch(setEndDate(endDate))
+    sortBy: (sortByValue) => dispatch(sortBy(sortByValue)),
+    setStartDate: (startDate) => dispatch(setStartDate(startDate)),
+    setEndDate: (endDate) => dispatch(setEndDate(endDate))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ExpenseListFilters);

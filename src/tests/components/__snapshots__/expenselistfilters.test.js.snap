@@ -14,32 +14,32 @@ exports[`should render ExpenseListFilters correctly 1`] = `
     <option
       value="description_low"
     >
-      Description (Low to High)
+      Description (A-Z)
     </option>
     <option
       value="description_high"
     >
-      Description (High to Low)
+      Description (Z-A)
     </option>
     <option
       value="amount_low"
     >
-      Amount (Low to High)
+      Amount (Small to Large)
     </option>
     <option
       value="amount_high"
     >
-      Amount (High to Low)
+      Amount (Large to Small)
     </option>
     <option
       value="date_low"
     >
-      Date (Low to High)
+      Date (Old to New)
     </option>
     <option
       value="date_high"
     >
-      Date (High to Low)
+      Date (New to Old)
     </option>
   </select>
   <withStyles(DateRangePicker)
@@ -156,32 +156,32 @@ exports[`should render ExpenseListFilters with filledFilters correctly 1`] = `
     <option
       value="description_low"
     >
-      Description (Low to High)
+      Description (A-Z)
     </option>
     <option
       value="description_high"
     >
-      Description (High to Low)
+      Description (Z-A)
     </option>
     <option
       value="amount_low"
     >
-      Amount (Low to High)
+      Amount (Small to Large)
     </option>
     <option
       value="amount_high"
     >
-      Amount (High to Low)
+      Amount (Large to Small)
     </option>
     <option
       value="date_low"
     >
-      Date (Low to High)
+      Date (Old to New)
     </option>
     <option
       value="date_high"
     >
-      Date (High to Low)
+      Date (New to Old)
     </option>
   </select>
   <withStyles(DateRangePicker)

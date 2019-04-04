@@ -8,3 +8,5 @@ git log - View recent commits
 
 git status
 git commit -am ""
+git push
+git push heroku master

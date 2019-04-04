@@ -34,12 +34,12 @@ export class ExpenseListFilters extends React.Component {
         <select
         value={this.props.filters.sortBy}
         onChange={this.onSortChange}>
-            <option value = "description_low">Description (Low to High)</option>
-            <option value = "description_high">Description (High to Low)</option>
-            <option value = "amount_low">Amount (Low to High)</option>
-            <option value = "amount_high">Amount (High to Low)</option>
-            <option value = "date_low">Date (Low to High)</option>
-            <option value = "date_high">Date (High to Low)</option>
+            <option value = "description_low">Description (A-Z)</option>
+            <option value = "description_high">Description (Z-A)</option>
+            <option value = "amount_low">Amount (Small to Large)</option>
+            <option value = "amount_high">Amount (Large to Small)</option>
+            <option value = "date_low">Date (Old to New)</option>
+            <option value = "date_high">Date (New to Old)</option>
         </select>
         <DateRangePicker
         startDate={this.props.filters.startDate}
